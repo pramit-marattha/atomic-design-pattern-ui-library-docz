@@ -1,0 +1,51 @@
+---
+name: Buttons
+route: /atoms/buttons
+menu: Atoms
+---
+
+# Buttons
+
+import { ButtonsProperty } from "./buttons.js";
+import { Playground } from "docz";
+
+
+> Small Alert Button
+
+<Playground>
+
+<ButtonsProperty color="success" size="small">
+  Small Alert!
+</ButtonsProperty>
+
+</Playground>
+
+---
+
+# Big Alert Button
+
+> Big alert
+
+<Playground>
+
+<ButtonsProperty size="large"> Big Alert!</ButtonsProperty>
+
+</Playground>
+
+# Big Alert Button
+
+> Big alert
+
+<Playground>
+{()=>{
+    const [counter,setCounter] = React.useState(0)
+    return(
+        <>
+        <button onClick={() => setCounter(counter => counter + 1)}>
+        Increment
+        </button>
+        <p>{counter}</p>
+        </>
+    )
+}}
+</Playground>
