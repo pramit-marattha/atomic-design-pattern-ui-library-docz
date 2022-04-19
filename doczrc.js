@@ -10,7 +10,7 @@ export default {
     },
     {
       name: "Molecules",
-      menu: ["Card", "Hero", "Navbar"],
+      menu: ["Card", "Hero"],
     },
     {
       name: "Organism",

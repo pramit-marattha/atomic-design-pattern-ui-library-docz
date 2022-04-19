@@ -22,4 +22,4 @@ const HeroProperty = ({ shadow, anim, spacing, ...props }) => {
   );
 };
 
-export { HeroProperty };
+export default HeroProperty;

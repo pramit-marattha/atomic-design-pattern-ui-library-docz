@@ -1,6 +1,7 @@
 import React from "react";
+import HeroProperty from "../../molecules/hero/hero.js";
 
-const HeroProperty = ({ shadow, anim, spacing, ...props }) => {
+const HomeProperty = ({ ...props }) => {
   return (
     <>
       <div
@@ -11,9 +12,10 @@ const HeroProperty = ({ shadow, anim, spacing, ...props }) => {
       >
         <h1>Hello From Home Page</h1>
         <h2>Awesome Home Page!</h2>
+        <HeroProperty />
       </div>
     </>
   );
 };
 
-export { HeroProperty };
+export { HomeProperty };
